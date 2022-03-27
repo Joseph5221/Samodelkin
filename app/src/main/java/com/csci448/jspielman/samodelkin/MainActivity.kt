@@ -40,13 +40,6 @@ class MainActivity : ComponentActivity() {
         }
         MainActivityContent()
     }
-
-    val name_label = resources.getString(R.string.name_label)
-    val race_label = resources.getString(R.string.name_label)
-    val stats_label = resources.getString(R.string.name_label)
-    val dex_label = resources.getString(R.string.name_label)
-    val str_label = resources.getString(R.string.name_label)
-    val wis_label = resources.getString(R.string.name_label)
 }
 
 @Composable
